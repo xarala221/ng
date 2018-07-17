@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bakeli Andu</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="app.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+
+
+    <div id="header">
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container">
+          <a class="navbar-brand logo" href="/">ANDU</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <form class="form-inline my-2 my-lg-0">
+                    <!--<input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">-->
+                    <input class="mainLoginInput form-control mr-sm-2" type="text" placeholder="&#61442;  Recherche..."/> <br/>
+                </form>
+              
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Se connecter</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">S'inscrire</a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+        <div class="intro text-center">
+          <div class="container">
+            <div class="h4"><span class="intro-title"><a href="index.html">Cours</a> </span> <span class="intro-title"><a href="view1/quiz.html">Quiz</a> </span> <span class="intro-title"><a href="view1/dashboard.html">Dashboard</a>  </span> </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div ng-view></div>
+
+  
+  <div class="all-courses">
+      <!--Cours populaires-->
+       <div id="cours-pop" class="cours-pop">
+         <div class="cours-container">
+           <h3 class="popular">Populaires</h3>
+           <div class="row">
+             <div class="col cours-item">
+               <div class="img-intro">
+                 <img src="images/bg.jpg" alt="" class="img-fluid img-responsive">
+                 <h4 class="cours-title my-2 text-center">Informatique</h4>
+                 <p class="cours-desc"> Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                 <hr class="">
+                 <h5 class="download text-center"><a href="" class="btn btn-outline-success">Telecharger</a></h5>
+               </div>
+             </div>
+   
+             <div class="col cours-item">
+                 <div class="img-intro">
+                   <img src="images/bg.jpg" alt="" class="img-fluid img-responsive">
+                   <h4 class="cours-title my-2 text-center">Informatique</h4>
+                   <p class="cours-desc"> Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                   <hr class="">
+                   <h5 class="download text-center"><a href="" class="btn btn-outline-success">Telecharger</a></h5>
+                 </div>
+               </div>
+   
+               <div class="col cours-item">
+                 
+                   <div class="img-intro">
+                     <img src="images/bg.jpg" alt="" class="img-fluid img-responsive">
+                     <h4 class="cours-title my-2 text-center">Informatique</h4>
+                     <p class="cours-desc"> Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                     <hr class="">
+                     <h5 class="download text-center"><a href="" class="btn btn-outline-success">Telecharger</a></h5>
+                 </div>
+                 </div>
+   
+                 <div class="col cours-item">
+                     <div class="img-intro">
+                       <img src="images/bg.jpg" alt="" class="img-fluid img-responsive">
+                       <h4 class="cours-title my-2 text-center">Informatique</h4>
+                       <p class="cours-desc"> Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                       <hr class="">
+                       <h5 class="download text-center"><a href="" class="btn btn-outline-success">Telecharger</a></h5>
+                     </div>
+                   </div>
+             
+   
+           </div>
+         </div>
+       </div>
+   
+       <!--Cours nouveaux-->
+       <div id="cours-new" class="cours-new">
+           <div class="cours-container">
+             <h3 class="new">Nouveaux</h3>
+             <div class="row">
+               <div class="col cours-item">
+                 <div class="img-intro">
+                   <img src="images/bg.jpg" alt="" class="img-fluid img-responsive">
+                   <h4 class="cours-title my-2 text-center">Informatique</h4>
+                   <p class="cours-desc"> Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                   <hr class="">
+                   <h5 class="download text-center"><a href="" class="btn btn-outline-success">Telecharger</a></h5>
+                 </div>
+               </div>
+   
+               <div class="col cours-item">
+                   <div class="img-intro">
+                     <img src="images/bg.jpg" alt="" class="img-fluid img-responsive">
+                     <h4 class="cours-title my-2 text-center">Informatique</h4>
+                     <p class="cours-desc"> Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                     <hr class="">
+                     <h5 class="download text-center"><a href="" class="btn btn-outline-success">Telecharger</a></h5>
+                   </div>
+                 </div>
+     
+                 <div class="col cours-item">
+                     <div class="img-intro">
+                       <img src="images/bg.jpg" alt="" class="img-fluid img-responsive">
+                       <h4 class="cours-title my-2 text-center">Informatique</h4>
+                       <p class="cours-desc"> Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                       <hr class="">
+                       <h5 class="download text-center"><a href="" class="btn btn-outline-success">Telecharger</a></h5>
+                     </div>
+                   </div>
+     
+                   <div class="col cours-item">
+                       <div class="img-intro">
+                         <img src="images/bg.jpg" alt="" class="img-fluid img-responsive">
+                         <h4 class="cours-title my-2 text-center">Informatique</h4>
+                         <p class="cours-desc"> Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                         <hr class="">
+                         <h5 class="download text-center"><a href="" class="btn btn-outline-success">Telecharger</a></h5>
+                       </div>
+                     </div>
+               
+     
+             </div>
+           </div>
+         </div>
+       </div>
+   
+   </div>
+
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="view1/view1.js"></script>
+ 
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+  <script src="js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+  <script src="js/popper.min.js" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

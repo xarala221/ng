@@ -1,0 +1,188 @@
+html{
+  min-height: 100%;
+  position: relative;
+}
+body{
+  background: #eee
+}
+#header{
+background: #ffffff;
+}
+
+.navbar{
+  padding-top: 20px;
+}
+.navbar .logo{
+  color: #368066;
+  font-weight: 900;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.form-inline{
+  margin-left: 70px;
+  padding: 0 30px;
+}
+
+.intro h4{
+  padding: 15px 0;
+}
+.intro .intro-title{
+  padding: 0 15px;
+}
+.mainLoginInput{
+  height: 40px;
+  padding: 0px;
+  font-size: 15px;
+  margin: 5px 30px;
+  background: #F2F2F2;
+  padding-right: 100px;
+}
+
+.mainLoginInput::-webkit-input-placeholder { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: #000000;
+}
+
+.mainLoginInput::-moz-placeholder  { 
+font-family: FontAwesome;
+/*font-weight: normal;*/
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: #000000;
+
+
+}
+
+.mainLoginInput:-ms-input-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: #000000;
+}
+.intro-title a{
+  color: #000000;
+}
+.all-courses, .quiz-page{
+  background: #F7F7F7;
+}
+.all-courses hr{
+    width: 200px;
+    border: 2px solid #F2F2FA;
+}
+#cours-pop, .quiz-page{
+  padding: 20px 0;
+}
+
+#cours-new{
+  padding: 20px 0;
+}
+.all-courses .cours-item{
+  padding: 0px 5px;
+    margin: 0px 15px;
+    box-shadow: 0 0 10px #ccc;
+    background: #ffffff;
+}
+.all-courses .popular, .new{
+  margin-bottom: 25px;
+}
+.all-courses .btn-outline-success{
+
+  color: #368066 !important;
+  border: 0;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  
+}
+.all-courses .cours-container{
+  margin: 0 20px;
+  padding: 0 10px;
+}
+
+.quiz-page .quiz-desc{
+  font-size: 30px;
+  padding: 20px ;
+  margin: 20px 0;
+}
+.evaluation{
+  padding: 30px 0;
+  font-size: 25px;
+  font-weight: 700;
+  color:#368066;
+  
+}
+.evaluation a{
+  color:#368066;
+}
+
+.quiz-page .reponse{
+  padding: 25px 25px;
+ font-size: 30px;
+ font-weight: bold;
+ margin: 10px 0;
+}
+.quiz-desc .row{
+  padding: 0px 20px;
+    margin: 15px 20px;
+}
+.quiz-page .quiz-submit .btn-success{
+  background-color:#368066;
+  color: #fff;
+  border-radius: 0;
+  width: 300px; 
+}/*
+.dash-page .dash-progression{
+  padding: 20px 0;
+}
+.dash-page .dash-progress{
+  margin: 10px 0;
+}
+.dash-page .progress{
+  margin-top: 60px;
+}
+
+.dash-page p{
+  margin-top: -28px;
+  float: right;
+  margin-bottom: 0;
+}*/
+.dash-page{
+  padding: 20px 0;
+  background: #F2F2FA;
+}
+.dash-page .btn{
+  float: right;
+  margin-top: -29px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #6f6f6f;
+  background: transparent;
+  padding: 5px 40px;
+  border-radius: 10px;
+}
+.dash-page .prog{
+  margin: -10px 10px;
+    padding: 5px 0;
+}
+
+.dash-deux {
+  padding: 25px 0;
+}
+
+.dash-trois{
+  padding: 25px 0;
+  background: #F2F2FA;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bakeli | Andu</title>
+    <!-- Static Files bootstrap css  -->
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+   
+</head>
+<body>
+  <div ng-app="myapp">
+    <div id="header">
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container">
+    <a class="navbar-brand logo" href="/">ANDU</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <form class="form-inline my-2 my-lg-0">
+              <!--<input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">-->
+              <input class="mainLoginInput form-control mr-sm-2" type="text" placeholder="&#61442;  Recherche..."/> <br/>
+          </form>
+        
+      </ul>
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+              <a class="nav-link" href="#">Se connecter</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">S'inscrire</a>
+            </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div class="intro text-center">
+    <div class="container">
+      <div class="h4"><span class="intro-title"><a href="../index.html">Cours</a> </span> <span class="intro-title"><a href="../view1/quiz.html">Quiz</a> </span> <span class="intro-title"><a href="../view1/dashboard.html">Dashboard</a>  </span> </div>
+    </div>
+  </div>
+</div>
+
+<div class="quiz-page">
+<div class="container">
+  <h4 class="quiz">Quiz</h4>
+  <p class="evaluation"><span class="float-left count"><a href="">5:0</a></span> <span class="float-right passe"><a href="">Passer</a> <i class="fa fa-chevron-right"></i> </span></p>
+  <div class="quiz-begin">
+    <h2 class="quiz-title text-center font-weight-300">Question</h2>
+    <p class="text-center quiz-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio vitae nesciunt minima dolores </p>
+    <div class="quiz-desc">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 reponse btn btn-outline-primary btn-lg"><i class="fa fa-font float-left"></i> <span class="text-center">Reponse 1</span></div>
+          <div class="col-md-6 reponse btn btn-outline-success btn-lg"><i class="fa fa-font float-left"></i> Reponse 2</div>
+            <div class="col-md-6 reponse btn btn-outline-warning btn-lg"><i class="fa fa-font float-left"></i> Reponse 3</div>
+              <div class="col-md-6 reponse btn btn-outline-secondary btn-lg"><i class="fa fa-font float-left"></i> Reponse 4</div>
+              <div class="clear-fix"></div>
+        </div>
+      </div>
+    </div>
+    <div class="quiz-submit text-center">
+      <button class="btn btn-success btn-lg">Valider <i class="fa fa-chevron-right"></i> </button>
+    </div>
+  </div>
+</div>
+   
+
+</div>
+  <script src="../js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+  <script src="../js/popper.min.js" crossorigin="anonymous"></script>
+  <script src="../js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="../js/main.js" crossorigin="anonymous"></script>
+  
+</body>
+</html>
