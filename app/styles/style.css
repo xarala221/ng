@@ -8,6 +8,7 @@ body{
 }
 #header{
 background: #ffffff;
+box-shadow: 0 0 5px #676767;
 }
 a{
   text-decoration: none;
@@ -193,7 +194,9 @@ color: #000000;
   font-size: 15px;
 }
 .all-courses, .quiz-page{
-  background: #F7F7F7;
+
+  padding: 20px 0;
+  background: #fff;
 }
 .all-courses hr{
     width: 200px;
@@ -308,6 +311,7 @@ color: #000000;
   width: 300px;
   margin-top: 80px;
 }
+
 /*
 .dash-page .dash-progression{
   padding: 20px 0;
@@ -324,19 +328,44 @@ color: #000000;
   float: right;
   margin-bottom: 0;
 }*/
+
+.dashboard{
+  margin-top: 40px;
+}
 .dash-page{
   padding: 20px 0;
-  background: #F2F2FA;
+  background: #ffffff;
 }
+/*
 .dash-page .btn{
   float: right;
   margin-top: -29px;
   font-weight: bold;
   font-size: 20px;
-  color: #6f6f6f;
+  color: #368066;
   background: transparent;
   padding: 5px 40px;
   border-radius: 10px;
+  border: 1px solid #368066;
+}*/
+.dash-page .mybtn{
+  color: #ffaa00;
+}
+.mybtn{
+  float: right;
+  margin-top: -29px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #368066;
+  background: transparent;
+  padding: 5px 40px;
+  border-radius: 10px;
+  border: 1px solid #368066;
+}
+.mybtn:hover{
+  color: #ffffff;
+  background: #368066;
+  border: 1px solid #368066;
 }
 .dash-page .prog{
   margin: -10px 10px;
@@ -344,12 +373,23 @@ color: #000000;
 }
 
 .dash-deux {
-  padding: 25px 0;
+  padding: 25px 10px;
+  background: #ffffff;
 }
-
+.dash-deux .mybtn{
+  color: #ffaa00;
+}
 .dash-trois{
-  padding: 25px 0;
-  background: #F2F2FA;
+  padding: 25px 10px;
+  background: #ffffff;
+}
+.dash-item-title{
+  font-weight: bold;
+  font-size: 30px;
+}
+.prog{
+  font-size: 20px;
+  font-weight: bold;
 }
 .footer{
   padding: 25px 0;
