@@ -6,7 +6,11 @@ angular.module('myApp.view1', ['ngRoute'])
   $routeProvider.when('/!view1', {
     templateUrl: '../index.html',
     controller: 'View1Ctrl'
-  });
+  })/*
+  .while ('/test'), {
+    templateUrl: 'testform.html'
+    
+  }*/
 }])
 
 .controller('View1Ctrl', [function() {

@@ -9,7 +9,14 @@ body{
 #header{
 background: #ffffff;
 }
-
+a{
+  text-decoration: none;
+  color: #000000;
+}
+a:hover{
+  text-decoration: none;
+  color: #000000;
+}
 .navbar{
   padding-top: 20px;
 }
@@ -25,15 +32,16 @@ background: #ffffff;
 }
 a.login{
     text-decoration: none;
-    color: #368066;
+    background-color: #368066;
     border: 1px solid #368066;
-    padding: 5px 20px;
+    padding: 8px 20px;
+    color: #ffffff;
 }
 a.register{
   text-decoration: none;
   color: #368066;
   border: 1px solid #368066;
-  padding: 5px 35px;
+  padding: 8px 35px;
 }
 a.register:hover{
     text-decoration: none;
@@ -43,9 +51,9 @@ a.register:hover{
 }
 a.login:hover{
   text-decoration: none;
-  background-color: #368066;
+  background-color: #ffffff;
   border: 1px solid #368066;
-  color: #fff;
+  color: #368066;
 }
 
 #loginbox{
@@ -119,14 +127,15 @@ a.login:hover{
   border-top-right-radius: 0;
 }*/
 .intro .h4{
-  padding: 15px 0;
+  padding: 20px 0;
+  font-size: 15px;
 }
 .intro .intro-title{
   padding: 0 15px;
 }
 .mainLoginInput{
-  height: 40px;
-  padding: 0px;
+  height: 45px;
+  padding: 10px;
   font-size: 15px;
   margin: 5px 30px;
   background: #F2F2F2;
@@ -169,7 +178,9 @@ color: #000000;
 }
 .all-courses{
   margin-top: -10px;
+  background: #F2F2F2;
 }
+
 .intro-title a{
   color: #000000;
   text-decoration: none;
@@ -178,12 +189,16 @@ color: #000000;
   background: #ffffff;
   color: #368066;
 }
+.all-courses .cours-desc{
+  font-size: 15px;
+}
 .all-courses, .quiz-page{
   background: #F7F7F7;
 }
 .all-courses hr{
     width: 200px;
     border: 2px solid #F2F2FA;
+    margin-left: 20px;
 }
 #cours-pop, .quiz-page{
   padding: 20px 0;
@@ -201,13 +216,24 @@ color: #000000;
 .all-courses .popular, .new{
   margin-bottom: 25px;
 }
-.all-courses .btn-outline-success{
+.all-courses .download{
+  margin: 10px 0;
+}
 
+.all-courses .download .btn:hover{
+  background: #368066;
+  color: #fff;
+}
+.all-courses .btn-outline-success{
   color: #368066 !important;
   border: 0;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+  
+}
+.all-courses .btn-outline-success:hover{
+  color: #ffffff !important;
   
 }
 .all-courses .cours-container{
@@ -217,8 +243,9 @@ color: #000000;
 
 .quiz-page .quiz-desc{
   font-size: 30px;
-  padding: 20px ;
-  margin: 20px 0;
+  padding: 15px 0;
+  margin: 15px 0;
+  margin-bottom: -50px;
 }
 .evaluation{
   padding: 30px 0;
@@ -235,7 +262,32 @@ color: #000000;
   padding: 25px 25px;
  font-size: 30px;
  font-weight: bold;
- margin: 10px 0;
+ border: 3px solid #368066;
+ border-radius: 10px;
+ margin-top: 50px;
+ /*margin-bottom: 70px;*/
+}
+.quiz-page .reponse .a, .b, .c, .d{
+  background: #f10;
+    color: #ffff;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.quiz-page .reponse .b{
+  background: rgb(0, 180, 0);
+  color: #ffff;
+}
+.quiz-page .reponse .c{
+  background: rgb(255, 1, 213);
+  color: #ffff;
+}
+.quiz-page .reponse .d{
+  background: rgb(25, 0, 250);
+  color: #ffff;
+}
+.quiz-page .reponse-item{
+  margin-left: 50px;
 }
 .quiz-desc .row{
   padding: 0px 20px;
@@ -245,8 +297,18 @@ color: #000000;
   background-color:#368066;
   color: #fff;
   border-radius: 0;
-  width: 300px; 
-}/*
+  width: 300px;
+  margin-top: 80px;
+  font-weight: bold;
+}
+.quiz-page .quiz-submit .btn-success:hover{
+  background-color:#ffffff;
+  color: #368066;
+  border-radius: 0;
+  width: 300px;
+  margin-top: 80px;
+}
+/*
 .dash-page .dash-progression{
   padding: 20px 0;
 }
@@ -288,4 +350,8 @@ color: #000000;
 .dash-trois{
   padding: 25px 0;
   background: #F2F2FA;
+}
+.footer{
+  padding: 25px 0;
+  padding-bottom: 10px;
 }
