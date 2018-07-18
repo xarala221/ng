@@ -19,7 +19,42 @@
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
-<ng-include src="'header.html'"></ng-include>
+
+    <div id="header">
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container">
+          <a class="navbar-brand logo" href="/">ANDU</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <form class="form-inline my-2 my-lg-0">
+                    <!--<input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">-->
+                    <input class="mainLoginInput form-control mr-sm-2" type="text" placeholder="&#61442;  Recherche..."/> <br/>
+                </form>
+              
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="register" href="#!test" style="margin-right:10px;">S'inscrire </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="login" href="view1/login.html" style="margin-left:20px;">Se connecter</a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+        <div class="intro text-center">
+          <div class="container">
+            <div class="h4"><span class="intro-title"><a href="index.html">Cours</a> </span> <span class="intro-title"><a href="view1/quiz.html">Quiz</a> </span> <span class="intro-title"><a href="view1/dashboard.html">Dashboard</a>  </span> </div>
+          </div>
+        </div>
+      </div>
+      
+      
  
 
 
