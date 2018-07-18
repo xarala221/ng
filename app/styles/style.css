@@ -3,7 +3,8 @@ html{
   position: relative;
 }
 body{
-  background: #eee
+  background: #eee;
+  height: 100%;
 }
 #header{
 background: #ffffff;
@@ -22,8 +23,102 @@ background: #ffffff;
   margin-left: 70px;
   padding: 0 30px;
 }
+a.login{
+    text-decoration: none;
+    color: #368066;
+    border: 1px solid #368066;
+    padding: 5px 20px;
+}
+a.register{
+  text-decoration: none;
+  color: #368066;
+  border: 1px solid #368066;
+  padding: 5px 35px;
+}
+a.register:hover{
+    text-decoration: none;
+    background-color: #368066;
+    border: 1px solid #368066;
+    color: #fff;
+}
+a.login:hover{
+  text-decoration: none;
+  background-color: #368066;
+  border: 1px solid #368066;
+  color: #fff;
+}
 
-.intro h4{
+#loginbox{
+  margin-top:50px;
+  }
+  
+  .pass-forget{
+  float:right;
+  font-size: 80%;
+  position: relative;
+  top:-10px;
+  }
+  .panel-body{
+  padding-top:30px
+  }
+  #login-alert{
+  display: none;
+  }
+  .input-top{
+  margin-bottom: 25px;
+  }
+  .hr-line{
+   border-top: 1px solid#888; padding-top:15px; font-size:85%; 
+   }
+   
+   #signupbox{
+   display:none; margin-top:50px;
+   }
+   .signinbutton{
+   float:right; font-size: 85%; position: relative; top:-10px;
+   }
+   #signupalert{
+   display:none
+   }
+   
+   .or{
+   margin-left:8px;
+   }
+   
+   .hr-last{
+   border-top: 1px solid #999; padding-top:20px
+   }
+/*
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: 15px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}*/
+.intro .h4{
   padding: 15px 0;
 }
 .intro .intro-title{
@@ -72,8 +167,16 @@ padding-left: 5px;
 padding-top: 2px;
 color: #000000;
 }
+.all-courses{
+  margin-top: -10px;
+}
 .intro-title a{
   color: #000000;
+  text-decoration: none;
+}
+.intro-title a:hover{
+  background: #ffffff;
+  color: #368066;
 }
 .all-courses, .quiz-page{
   background: #F7F7F7;
