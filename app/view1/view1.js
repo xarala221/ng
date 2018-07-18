@@ -7,7 +7,7 @@ angular.module('myApp.view1', ['ngRoute'])
     templateUrl: '../index.html',
     controller: 'View1Ctrl'
   })/*
-  .while ('/test'), {
+  .when('/test'), {
     templateUrl: 'testform.html'
     
   }*/
