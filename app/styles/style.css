@@ -179,7 +179,6 @@ color: #000000;
 }
 .all-courses{
   margin-top: -10px;
-  background: #F2F2F2;
 }
 
 .intro-title a{
@@ -196,7 +195,7 @@ color: #000000;
 .all-courses, .quiz-page{
 
   padding: 20px 0;
-  background: #fff;
+
 }
 .all-courses hr{
     width: 200px;
