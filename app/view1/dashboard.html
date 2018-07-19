@@ -23,19 +23,27 @@
     </button>
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-          <form class="form-inline my-2 my-lg-0">
-              <!--<input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">-->
-              <input class="mainLoginInput form-control mr-sm-2" type="text" placeholder="&#61442;  Recherche..."/> <br/>
+      
+      <!--<ul class="navbar-nav mr-auto" style="display:inline">
+          <form class="form-inline" style="display:table">
+              <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+              <input class="form-control form-control mr-sm-2" type="text" placeholder="&#61442;  Recherche..."/> <br/>
           </form>
         
-      </ul>
+      </ul>-->
+
+      <div class="col-md-6">
+          <div class="inner-addon right-addon search-icon">
+           <!--<i class="fa fa-search "></i>-->
+           <input type="text" placeholder="&#61442; Recherche..." class="form-control search-box mainLoginInput" />
+       </div>
+   </div>
       <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-              <a class="register" href="#" style="margin-right:10px;">S'inscrire </a>
+              <a class=" my-link  register" href="#">S'inscrire </a>
             </li>
             <li class="nav-item">
-              <a class="login" href="#!test" style="margin-left:20px;">Se connecter</a>
+              <a class=" my-link login" href="#!test" >Se connecter</a>
             </li>
       </ul>
     </div>
@@ -51,18 +59,22 @@
     <h4 class="dash-title" style="margin-bottom: -25px; margin-top: 25px;font-size:20px;">Dashboard</h4>
 </div>
 <div class="dashboard">
+
+
 <div class="container">
   <div class="dash-page">
     <div class="container">
       <div class="row">
           <div class="col-md-3">
-              <img src="../images/bg.jpg" alt="" class="img-fluid">
+              <img src="../images/bg.jpg" alt="" class="img-fluid" style="    height: 250px;
+    margin-top: 30px;">
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9" style="padding: 40px 10px;
+    padding-bottom: 20px;">
               <h2 class="dash-item-title">Programmation</h2>
-              <p class="dash-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus temporibus expedita libero ab dolorum corrupti earum voluptate mollitia accusantium.</p>
+              <p class="dash-item-desc" style="margin: 30px 0px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae iusto explicabo exercitationem reprehenderit architecto, modi sunt totam illum et quisquam molestiae nam a voluptas id molestias fugiat laudantium? In.</p>
               <h2 class="prog"><span class="float-left">Pregression</span> <span class="float-right">70%</span></h2>
-              <div class="progress flot-left" style="margin-top: 70px; width:70%">
+              <div class="progress n" style="margin-top:30px; width:70%; border-radius: 50px;">
                   <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="100">
             </div>
           </div><a href="#" class="btn mybtn" style="float: right;
@@ -73,47 +85,56 @@
   </div>
 </div>
 
-
-    <div class="container">
-        <div class="dash-deux">
-      <div class="row">
-          <div class="col-md-3">
-              <img src="../images/bg.jpg" alt="" class="img-fluid">
-          </div>
-          <div class="col-md-9">
-              <h2 class="dash-item-title">Marketing</h2>
-              <p class="dash-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus temporibus expedita libero ab dolorum corrupti earum voluptate mollitia accusantium.</p>
-              <h2 class="prog"><span class="float-left">Pregression</span> <span class="float-right">70%</span></h2>
-              <div class="progress flot-left" style="margin-top: 70px; width:70%">
-                  <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="100">
+<!--Dash deux-->
+<div class="container">
+    <div class="dash-page">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="../images/bg.jpg" alt="" class="img-fluid" style="    height: 250px;
+      margin-top: 30px;">
             </div>
-          </div><a href="#" class="btn mybtn" style="float: right;
-          margin-top: -29px;">Continue</a>
-          </div>  
+            <div class="col-md-9" style="padding: 40px 10px;
+      padding-bottom: 20px;">
+                <h2 class="dash-item-title">Programmation</h2>
+                <p class="dash-item-desc" style="margin: 30px 0px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae iusto explicabo exercitationem reprehenderit architecto, modi sunt totam illum et quisquam molestiae nam a voluptas id molestias fugiat laudantium? In.</p>
+                <h2 class="prog"><span class="float-left">Pregression</span> <span class="float-right">70%</span></h2>
+                <div class="progress n" style="margin-top:30px; width:70%; border-radius: 50px;">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="100">
+              </div>
+            </div><a href="#" class="btn mybtn" style="float: right;
+            margin-top: -29px;">Continue</a>
+            </div>  
+        </div>
       </div>
     </div>
-</div>
+  </div>
 
+  <!--dash trois-->
 
-    <div class="container">
-        <div class="dash-trois">
-      <div class="row">
-          <div class="col-md-3">
-              <img src="../images/bg.jpg" alt="" class="img-fluid">
+  <div class="container">
+      <div class="dash-page">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                  <img src="../images/bg.jpg" alt="" class="img-fluid" style="    height: 250px;
+        margin-top: 30px;">
+              </div>
+              <div class="col-md-9" style="padding: 40px 10px;
+        padding-bottom: 20px;">
+                  <h2 class="dash-item-title">Programmation</h2>
+                  <p class="dash-item-desc" style="margin: 30px 0px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae iusto explicabo exercitationem reprehenderit architecto, modi sunt totam illum et quisquam molestiae nam a voluptas id molestias fugiat laudantium? In.</p>
+                  <h2 class="prog"><span class="float-left">Pregression</span> <span class="float-right">100%</span></h2>
+                  <div class="progress n" style="margin-top:30px; width:70%; border-radius: 50px;">
+                      <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="70" aria-valuemin="100">
+                </div>
+              </div><a href="#" class="btn mybtn btn-finish" style="float: right;
+              margin-top: -29px; ">Terminer</a>
+              </div>  
           </div>
-          <div class="col-md-9">
-              <h2 class="dash-item-title">Gestion</h2>
-              <p class="dash-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus temporibus expedita libero ab dolorum corrupti earum voluptate mollitia accusantium.</p>
-              <h2 class="prog"><span class="float-left">Pregression</span> <span class="float-right">100%</span></h2>
-              <div class="progress flot-left" style="margin-top: 70px; width:70%">
-                  <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="100">
-            </div>
-          </div><a href="#" class="btn mybtn" >Terminer</a>
-          </div>  
+        </div>
       </div>
     </div>
-</div>
-
 </div>
   <script src="../js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
   <script src="../js/popper.min.js" crossorigin="anonymous"></script>
