@@ -13,45 +13,52 @@
    
 </head>
 <body>
-  <div>
-    <div id="header" >
-  <nav class="navbar navbar-expand-sm navbar-light">
-    <div class="container">
-    <a class="navbar-brand logo" href="/">ANDU</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-          <form class="form-inline my-2 my-lg-0">
-              <!--<input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">-->
-              <input class="mainLoginInput form-control mr-sm-2" type="text" placeholder="&#61442;  Recherche..."/> <br/>
-          </form>
+
+    <div id="header">
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container">
+          <a class="navbar-brand logo" href="/">ANDU</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         
-      </ul>
-      <ul class="navbar-nav ml-auto">
-          <li class="nav-item nav-register">
-              <a class="register" href="#" style="margin-right:10px;">S'inscrire </a>
-            </li>
-            <li class="nav-item nav-login">
-              <a class="login" href="#" style="margin-left:20px;">Se connecter</a>
-            </li>
-      </ul>
-    </div>
-  </div>
-  </nav>
-  <div class="intro text-center">
-    <div class="container">
-      <div class="h4"><span class="intro-title"><a href="../index.html">Cours</a> </span> <span class="intro-title"><a href="../view1/quiz.html">Quiz</a> </span> <span class="intro-title"><a href="../view1/dashboard.html">Dashboard</a>  </span> </div>
-    </div>
-  </div>
-</div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="col-md-6">
+                  <div class="inner-addon right-addon search-icon">
+                   <!--<i class="fa fa-search "></i>-->
+                   <input type="text" placeholder="&#61442; Recherche..." class="form-control mainLoginInput" />
+               </div>
+           </div>
+            <ul class="navbar-nav ml-auto nav-drop">
+             
+      
+                  <li class="nav-item dropdown">
+                      <a class="nav-link nav-profile dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Prenom Nom
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../index.html">Cours</a>
+                        <a class="dropdown-item" href="../view1/quiz.html">Quiz</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../view1/profiles.html">Profiles</a>
+                      </div>
+                    </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+        <div class="intro text-center">
+          <div class="container">
+            <div class="h4"><span class="intro-title"><a href="../index.html">Cours</a> </span> <span class="intro-title"><a href="../view1/quiz.html">Quiz</a> </span> <span class="intro-title"><a href="../view1/dashboard.html">Dashboard</a>  </span> </div>
+          </div>
+        </div>
+      </div>
 <div ng-view></div>
 <div class="container">
-    <h4 class="quiz" style=" margin-top: 25px; font-size:20px;">Quiz</h4>
+  <h4 class="quiz" style=" margin-top: 25px; font-size:20px;">Quiz</h4>
 </div>
 <div class="container">
+  <div class="quizes">
 <div class="quiz-page">
 <div class="container">
   <p class="evaluation"><span class="float-left count"><a href="">5:0</a></span> <span class="float-right passe"><a href="">Passer</a> <i class="fa fa-chevron-right"></i> </span></p>
@@ -81,7 +88,7 @@
   </div>
 </div>
 </div> 
-
+</div>
 </div>
 <ng-include src="'../footer.html'"></ng-include>
   <script src="../js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>

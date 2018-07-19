@@ -9,66 +9,202 @@
     <link rel="stylesheet" href="../styles/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
     <link rel="stylesheet" href="../styles/style.css">
 
 </head>
 <body>
-  <div>
+
     <div id="header">
-  <nav class="navbar navbar-expand-sm navbar-light">
-    <div class="container">
-    <a class="navbar-brand logo" href="/">ANDU</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-          <form class="form-inline my-2 my-lg-0">
-              <!--<input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">-->
-              <input class="mainLoginInput form-control mr-sm-2" type="text" placeholder="&#61442;  Recherche..."/> <br/>
-          </form>
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container">
+          <a class="navbar-brand logo" href="/">ANDU</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         
-      </ul>
-      <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-              <a class="nav-link" href="#" >Prenom </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#!test">Nom</a>
-            </li>
-      </ul>
-    </div>
-  </div>
-  </nav>
-  <div class="intro text-center">
-    <div class="container">
-      <div class="h4"><span class="intro-title"><a href="../index.html">Cours</a> </span> <span class="intro-title"><a href="../view1/quiz.html">Quiz</a> </span> <span class="intro-title"><a href="../view1/dashboard.html">Dashboard</a>  </span> </div>
-    </div>
-  </div>
-</div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="col-md-6">
+                  <div class="inner-addon right-addon search-icon">
+                   <!--<i class="fa fa-search "></i>-->
+                   <input type="text" placeholder="&#61442; Recherche..." class="form-control mainLoginInput" />
+               </div>
+           </div>
+            <ul class="navbar-nav ml-auto nav-drop">
+             
+      
+                  <li class="nav-item dropdown">
+                      <a class="nav-link nav-profile dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Prenom Nom
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../index.html">Cours</a>
+                        <a class="dropdown-item" href="../view1/quiz.html">Quiz</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../view1/dashboard.html">Dashboard</a>
+                      </div>
+                    </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+        <div class="intro text-center">
+          <div class="container">
+            <div class="h4"><span class="intro-title"><a href="../index.html">Cours</a> </span> <span class="intro-title"><a href="../view1/quiz.html">Quiz</a> </span> <span class="intro-title"><a href="../view1/dashboard.html">Dashboard</a>  </span> </div>
+          </div>
+        </div>
+      </div>
+
+
 <div class="container">
     <h4 class="dash-title" style="margin-bottom: -25px; margin-top: 25px;font-size:20px;">Profile</h4>
 </div>
 
-<div class="profiles">
+
     <div class="container">
+        <div class="profiles">
       <div class="row">
         <div class="col-md-4">
-            <img src="../images/bg.jpg" alt="" class="img-fluid user-image">
+            <img src="../images/linus.jpeg" alt="" class="img-fluid user-image">
         </div>
         <div class="col-md-6">
           <div class="user">
-              <h2 class="user-name">Prenom Nom</h2>
-              <p class="user-profession">Developpeur front-end</p>
+              <h2 class="user-name">Linus Trovalds</h2>
+              <p class="user-profession">Fondateur de Linux</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+<!--tabs-->
+<div class="container">
+<div class="tabs">
+<div class="bd-example bd-example-tabs">
+  <nav class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="home" aria-expanded="true">CV</a>
+    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="profile" aria-expanded="false">Portfolio</a>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" aria-expanded="true">
+      <!-- mycv -->
+      <div class="container">
+        <div class="row">
+        <div class="col-md-2">
+          <h3 class="cv-title">Etudes</h3>
+        </div>
+        <div class="col-md-8 col-offset-8">
+          <div class="cv-detail">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga consectetur velit commodi tempora aut quisquam porro</p>
+          <hr class="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga consectetur velit commodi tempora aut quisquam porro</p>
+          <hr class="">
+        </div>
+        </div> 
+      </div>
+      </div>
+
+      <div class="container">
+          <div class="row">
+          <div class="col-md-2">
+            <h3 class="cv-title">Competences</h3>
+          </div>
+          <div class="col-md-8 col-offset-8">
+            <div class="cv-detail">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga consectetur velit commodi tempora aut quisquam porro</p>
+            <hr class="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga consectetur velit commodi tempora aut quisquam porro</p>
+            <hr class="">
+          </div>
+          </div> 
+        </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+            <div class="col-md-2">
+              <h3 class="cv-title">Experiences</h3>
+            </div>
+            <div class="col-md-8 col-offset-8">
+              <div class="cv-detail">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga consectetur velit commodi tempora aut quisquam porro</p>
+              <hr class="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga consectetur velit commodi tempora aut quisquam porro</p>
+              <hr class="">
+            </div>
+            </div> 
+          </div>
+          </div>
+
+
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" aria-expanded="false">
+        <section class="gallery-block grid-gallery">
+            <div class="container">
+               
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../images/bg.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../images/bg.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../images/bg.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../images/bg.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../images/bg.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../images/bg.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../images/bg.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../images/bg.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../images/bg.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../images/bg.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../images/bg.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../images/bg.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../images/bg.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../images/bg.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../images/bg.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../images/bg.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../images/bg.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../images/bg.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.grid-gallery', { animation: 'slideIn'});
+        </script>
+    </div>
+   
+  </div>
+</div>
+</div>
+</div>
+
   <script src="../js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
   <script src="../js/popper.min.js" crossorigin="anonymous"></script>
   <script src="../js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="../js/main.js" crossorigin="anonymous"></script>
   
 </body>
 </html>

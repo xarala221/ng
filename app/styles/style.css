@@ -28,9 +28,13 @@ a:hover{
   font-family: sans-serif;
   font-size: 30px;
 }
+.dropdown-menu{
+  border: 0;
+}
 .ml-auto .nav-item{
   margin-right: 20px;
 }
+
 .form-inline{
   margin-left: 70px;
   padding: 0 30px;
@@ -39,29 +43,32 @@ a:hover{
   display: block;
 }
 a.login{
-    text-decoration: none;
-    background-color: #368066;
-    border: 1px solid #368066;
-    padding: 8px 20px;
-    color: #ffffff !important; 
+  text-decoration: none;
+  background-color: #368066;
+  border: 1px solid #368066;
+  padding: 3px 22px;
+  color: #ffffff !important;
+  margin-left: -15px !important;
 }
 a.register{
   text-decoration: none;
   color: #368066 !important;
   border: 1px solid #368066;
-  padding: 8px 35px;
+  padding: 3px 35px;
+  margin-right: 20px;
 }
 a.register:hover{
-    text-decoration: none;
-    background-color: #368066;
-    border: 1px solid #368066;
-    color: #fff;
-}
-a.login:hover{
   text-decoration: none;
   background-color: #ffffff;
   border: 1px solid #368066;
   color: #368066;
+}
+a.login:hover{
+
+  text-decoration: none;
+    background-color: #368066;
+    border: 1px solid #368066;
+    color: #fff !important;
 }
 
 #loginbox{
@@ -113,7 +120,7 @@ a.login:hover{
 }
 
 .mainLoginInput{
-  height: 45px;
+    height: 45px;
     font-size: 15px;
     background: #F2F2F2;
     margin-left: 100px;
@@ -229,7 +236,7 @@ color: #000000;
   padding: 20px 0;
 }
 .all-courses .cours-item{
-  padding: 0px 5px;
+  padding: 0px 0px;
     margin: 0px 15px;
     box-shadow: 0 0 10px #ccc;
     background: #ffffff;
@@ -239,6 +246,7 @@ color: #000000;
 }
 .all-courses .download{
   margin: 10px 0;
+  margin-top: -10px;
 }
 
 .all-courses .download .btn:hover{
@@ -263,7 +271,7 @@ color: #000000;
 }
 /* page quiz*/
 .quiz-page .quiz-desc{
-  font-size: 30px;
+  font-size: 25px;
   padding: 15px 0;
   margin: 15px 0;
   margin-bottom: -50px;
@@ -278,10 +286,12 @@ color: #000000;
 .evaluation a{
   color:#368066;
 }
-
+.quizes{
+  background: #ffffff;
+}
 .quiz-page .reponse{
-  padding: 25px 25px;
- font-size: 30px;
+  padding: 20px 30px;
+ font-size: 25px;
  font-weight: bold;
  border: 3px solid #368066;
  border-radius: 10px;
@@ -293,7 +303,12 @@ color: #000000;
     color: #ffff;
     border-radius: 10px;
     font-weight: 400;
-    padding: 3px 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.quiz-page .reponse:hover{
+  background: #F2F2F2;
+  color: #368066
 }
 .quiz-page .reponse .b{
   background: rgb(0, 180, 0);
@@ -317,7 +332,7 @@ color: #000000;
 .quiz-page .quiz-submit .btn-success{
   background-color:#368066;
   color: #fff;
-  border-radius: 50px; 
+  border-radius: 0px;
   width: 300px;
   margin-top: 80px;
   font-weight: bold;
@@ -325,7 +340,6 @@ color: #000000;
 .quiz-page .quiz-submit .btn-success:hover{
   background-color:#ffffff;
   color: #368066;
-  border-radius: 50px;
    width: 300px;
   margin-top: 80px;
 }
@@ -365,38 +379,103 @@ color: #000000;
   border: 1px solid #368066;
 }
 .dash-page .prog{
-      padding: 15px 0;
-      margin-bottom: 0px;
-      margin-top: -20px;
+  padding: 5px 0;
+  margin-bottom: -45px;
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: bold;
 }
-
+.dash-page .prog span{
+  margin-top: -15px;
+}
 
 .dash-item-title{
   font-weight: bold;
   font-size: 30px;
   margin-top: -10px;
 }
-.prog{
+.dash-item-desc{
   font-size: 20px;
-  font-weight: bold;
+  margin: 10px 0;
+}
+.progress{
+  margin-top: 70px;
 }
 .progress-bar{
   background: #368066;
 }
 
 /*page profile*/
+.nav-profile{
+  color: #000000 !important;
+}
 .profiles{
   margin-top: 40px;
 background: #fff;
 }
 .profiles .user-image{
-padding: 0px 35px;
-height: 300px;
-margin: 30px 0;
+  padding: 0px 20px;
+  height: 300px;
+  margin: 30px 0;
+  width: 80%;
 }
 .profiles .user{
-margin-left: -30px;
-margin-top: 25px;
+  margin-left: -90px;
+  margin-top: 25px;
+}
+/*tabs*/
+.nav-tabs {
+  margin-bottom: 1rem;
+}
+.tabs{
+  padding: 40px 0;
+  background: #ffffff;
+}
+.cv-title{
+  font-size: 22px;
+  margin-left: 40px;
+  font-weight: 400;
+}
+.cv-detail{
+      margin-top: 50px;
+      font-size: 20px;
+}
+/*Portfolio*/
+.gallery-block.grid-gallery{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.gallery-block.grid-gallery .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block.grid-gallery .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-block.grid-gallery a:hover{
+  opacity: 0.8;
+}
+
+.gallery-block.grid-gallery .item img{
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.4s;
+}
+
+.gallery-block.grid-gallery .item{
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+
+  .gallery-block.grid-gallery .scale-on-hover:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
 }
 .footer{
   padding: 25px 0;
@@ -407,129 +486,93 @@ margin-top: 25px;
 la responsivite
 */
 
-@media(max-width:991px){
-  /*page cours*/
-  .mr-auto{
-    margin: -5px -120px;
-}
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+ /*page cours*/
+ .mr-auto{
+  margin: -5px -120px;
+}
 .ml-auto .nav-item{
-  margin: 4px 0;
-  margin-right: 30px;
+margin: 4px 0;
+margin-right: 30px;
 }.navbar-light .navbar-nav .my-link{
-  padding-left: 5px;
+padding-left: 5px;
+}
+.nav-drop{
+  margin-left: 8px !important;
+  padding-left: -5px !important;
+  margin-right: 100px !important;
 }
 .ml-auto .nav-reg{
-  margin-right: 0px;
+  margin-right: -5px;
 }
 .ml-auto .nav-log{
-margin-left: -20px;
-margin-right: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 a.register, a.login{
-  text-decoration: none;
-
-  border: 1px solid #368066;
-  padding: 5px 35px;
-  
-}a.login{
-  color: #ffffff !important;
-}.mybtn{
-  padding: 2px 3px;
+text-decoration: none;
+border: 1px solid #368066;
+padding: 5px 0;
+}
+a.login{
+color: #ffffff !important;
+}
+a .register{
+  /*margin-right: 130px !important;*/
+  margin-right: 30px !important;
+}
+.mybtn{
+padding: 2px 0px;
+border-radius: 15px;
 }
 .mainLoginInput{
-  height: auto;
-  padding: 5px 0px;
-  /* margin: 5px 0px; */
-  margin-bottom: 5px;
-  /* margin-left: 60px; */
-  margin-left: -15px;
+height: auto;
+padding: 5px 0px;
+margin-bottom: 5px;
+margin-left: -15px;
+width: 285px;
 }
 /*page quiz*/
 
 .quiz-desc .row{
-  padding: 0 0;
-  margin:  0 0;
+padding: 0 0;
+margin:  0 0;
 }
 .quiz-page .reponse{
-  padding: 0px 5px;
-    /* margin: 20px 6px; */
-    margin-bottom: 0;
+  margin: 10px 0;
+  padding: 3px 5px;
+  /* margin: 20px 6px; */
+  /* margin-bottom: 0; */
 }
 .quiz-page .reponse .a, .b, .c, .d{
-    padding: 3px 5px;
+  padding: 3px 7px;
+  border-radius: 10px;
 }
+.quiz-page .reponse-item{
+  margin-left: 10px;
 }
-
-
-/*Extra small devices (portrait phones, less than 576px*/
-@media (max-width: 575.98px) {
-   /*page cours*/
-  .mr-auto{
-    margin: -5px -120px;
+.quiz-page .quiz-desc{
+  font-size: 20px;
+  padding: 10px 0;
+  margin-bottom: -40px;
+  margin-top: -10px;
 }
-
-.ml-auto .nav-item{
-  margin: 4px 0;
-  margin-right: 30px;
-  margin-left: 1px;
-  margin-right: 130px;
-}.navbar-light .navbar-nav .my-link{
-  padding-left: 5px;
+.quiz-page .quiz-submit .btn-success{
+  width: 200px;
+  margin-top: 55px;
+  font-weight: bold;
+  /* padding: 2px 17px; */
+  margin-left: -5px;
 }
-.ml-auto .nav-reg{
-  margin-right: 0px;
+.profiles .user-image{
+  padding: 0px 20px;
+  height: 300px;
+  margin: 30px 0;
+  width: 100%;
+}.profiles .user{
+  margin-left: 4px;
+  margin-top: 25px;
+  text-align: center;
 }
-.ml-auto .nav-log{
-margin-left: -20px;
-margin-right: 30px;
-}
-a.register, a.login{
-  text-decoration: none;
-
-  border: 1px solid #368066;
-  padding: 5px 35px;
-  
-}a.login{
-  color: #ffffff !important;
-}.mybtn{
-  padding: 2px 3px;
-}
-.mainLoginInput{
-  height: auto;
-  padding: 5px 0px;
-  /* margin: 5px 0px; */
-  margin-bottom: 5px;
-  /* margin-left: 60px; */
-  margin-left: -15px;
-  margin-right: 130px;
-}
-/*page quiz*/
-
-.quiz-desc .row{
-  padding: 0 0;
-  margin:  0 0;
-}
-.quiz-page .reponse{
-  padding: 0px 5px;
-    /* margin: 20px 6px; */
-    margin-bottom: 0;
-}
-.quiz-page .reponse .a, .b, .c, .d{
-    padding: 3px 5px;
-}
-}
-
- /*Small devices (landscape phones, 576px and up*/
-
-/*Medium devices (tablets, 768px and up*/
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
-}
+  }
