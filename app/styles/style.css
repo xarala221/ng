@@ -91,11 +91,9 @@ a.login:hover{
     border: 1px solid #368066;
     color: #fff !important;
 }
-
 #loginbox{
-  margin-left: 255px;
-  margin-top: 175px;
-  }
+  margin-top: 50px;
+}
   
   .pass-forget{
   float:right;
@@ -103,11 +101,16 @@ a.login:hover{
   position: relative;
   top:-10px;
   }
+  .panel .fa{
+    margin-top: 8px;
+    margin-right: 8px;
+  }
   .panel .panel-heading{
-    font-size:25px;
+    font-size:20px;
   }
   .panel-title{
-    margin-bottom: -20px;
+    margin-bottom: -15px;
+    color: #368066;
   }
   .panel-body{
   padding-top:30px
