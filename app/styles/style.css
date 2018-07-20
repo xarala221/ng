@@ -289,6 +289,9 @@ color: #000000;
 .quizes{
   background: #ffffff;
 }
+.quizes .quiz-page{
+  margin: 0 60px;
+}
 .quiz-page .reponse{
   padding: 20px 30px;
  font-size: 25px;
@@ -538,10 +541,17 @@ width: 285px;
 .quiz-desc .row{
 padding: 0 0;
 margin:  0 0;
+}.evaluation{
+  padding: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #368066;
+}.quizes .quiz-page{
+  margin: -3px -10px;
 }
 .quiz-page .reponse{
-  margin: 10px 0;
-  padding: 3px 5px;
+  margin: 10px -10px;
+  padding: 5px 5px;
   /* margin: 20px 6px; */
   /* margin-bottom: 0; */
 }
@@ -553,17 +563,21 @@ margin:  0 0;
   margin-left: 10px;
 }
 .quiz-page .quiz-desc{
-  font-size: 20px;
-  padding: 10px 0;
-  margin-bottom: -40px;
+  font-size: 18px;
+  /* padding: 10px 0px; */
+  margin-bottom: -15px;
   margin-top: -10px;
+  margin-left: -6px;
+  margin-right: -3px;
 }
 .quiz-page .quiz-submit .btn-success{
-  width: 200px;
-  margin-top: 55px;
-  font-weight: bold;
-  /* padding: 2px 17px; */
-  margin-left: -5px;
+  width: 170px;
+    margin-top: 30px;
+    font-weight: bold;
+    /* padding: 2px 17px; */
+    margin-left: -15px;
+    font-size: 18px;
+    padding: 4px 5px;
 }
 .profiles .user-image{
   padding: 0px 20px;
