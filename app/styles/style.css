@@ -93,7 +93,8 @@ a.login:hover{
 }
 
 #loginbox{
-  margin-top:50px;
+  margin-left: 255px;
+  margin-top: 175px;
   }
   
   .pass-forget{
@@ -101,6 +102,12 @@ a.login:hover{
   font-size: 80%;
   position: relative;
   top:-10px;
+  }
+  .panel .panel-heading{
+    font-size:25px;
+  }
+  .panel-title{
+    margin-bottom: -20px;
   }
   .panel-body{
   padding-top:30px
@@ -116,7 +123,9 @@ a.login:hover{
    }
    
    #signupbox{
-   display:none; margin-top:50px;
+   display:none;
+   margin-left: 255px;
+  margin-top: 175px;
    }
    .signinbutton{
    float:right; font-size: 85%; position: relative; top:-10px;
