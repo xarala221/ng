@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/font-awesome.min.css">
     <link rel="stylesheet" href="../styles/style.css">
+    <script src="view1.js"></script>
 
 </head>
 <body>
@@ -37,8 +38,8 @@
                   <i class="fa fa-bell" aria-hidden="true"></i> <img src="../images/linus.jpeg" alt="" class="rounded-circle img-responsive img-fluid"> Linus Trovalds
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="../index.html">Cours</a>
-                  <a class="dropdown-item" href="../view1/quiz.html">Quiz</a>
+                  <a class="dropdown-item" href="/">Cours</a>
+                  <a class="dropdown-item" href="#!quiz">Quiz</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="../view1/profiles.html">Profiles</a>
                 </div>
@@ -135,6 +136,7 @@
       </div>
     </div>
 </div>
+<script src="../app.js"></script>
   <script src="../js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
   <script src="../js/popper.min.js" crossorigin="anonymous"></script>
   <script src="../js/bootstrap.min.js" crossorigin="anonymous"></script>
