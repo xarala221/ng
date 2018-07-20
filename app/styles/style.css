@@ -27,9 +27,30 @@ a:hover{
   font-weight: 900;
   font-family: sans-serif;
   font-size: 30px;
+}.nav-drop .fa{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 5px;
+    padding: 0 2px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
 }
 .dropdown-menu{
   border: 0;
+}
+.nav-drop .rounded-circle{
+  width: 11%;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+.nav-drop .nav-profile{
+  margin-right: -150px;
 }
 .ml-auto .nav-item{
   margin-right: 20px;
@@ -429,6 +450,10 @@ background: #fff;
   margin-left: -90px;
   margin-top: 25px;
 }
+.profiles .user-profession{
+  font-size: 24px;
+    letter-spacing: 0.5px;
+}
 /*tabs*/
 .nav-tabs {
   margin-bottom: 1rem;
@@ -508,6 +533,20 @@ padding-left: 5px;
   margin-left: 8px !important;
   padding-left: -5px !important;
   margin-right: 100px !important;
+}
+.nav-drop .fa{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 5px;
+    padding: 0 2px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
 }
 .ml-auto .nav-reg{
   margin-right: -5px;
